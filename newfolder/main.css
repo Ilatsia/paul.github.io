@@ -1,0 +1,45 @@
+body{
+    background-color:white;
+    padding: 0;
+    margin:0 ;
+    min-height: 100vh;
+    flex:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.top{
+    flex:30%;
+}
+.desc{
+    float: left;
+}
+
+.image1{
+    float: left;
+}
+.main{
+    flex:40%;
+    display: flex;
+    flex-direction: row;
+
+}
+.one{
+    flex:20%;
+
+}
+.two{
+    flex:20%;
+}
+.three{
+    flex:20%;
+}
+.four{
+    flex:20%;
+}
+
+
+.footer{
+    bottom: 0%;
+}
